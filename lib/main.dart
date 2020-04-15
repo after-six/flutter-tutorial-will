@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Will의 TodoList',
       home: Scaffold(
+//        resizeToAvoidBottomInset: false,
         body: Column(
           children: <Widget>[
             Center(
