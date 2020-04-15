@@ -21,13 +21,81 @@ class MyApp extends StatelessWidget {
                       color: Colors.greenAccent)),
             ),
             Container(
-              margin: const EdgeInsets.fromLTRB(20, 0, 0, 0),
-              child:
-                TextField(
-                  maxLength:25,
+                margin: const EdgeInsets.fromLTRB(20, 0, 0, 0),
+                child: TextField(
+                  maxLength: 25,
                   decoration: InputDecoration.collapsed(hintText: 'input todo'),
-                )
-            ),
+                )),
+            Container(
+              height: 400,
+              color: Colors.red,
+              child: Scaffold(
+                body: ListView(
+                  children: <Widget>[
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text('flutter 공부하'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 출근하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text('flutter 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 출근하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text('flutter 공부하'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 출근하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text('flutter 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 출근하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 공부하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text('flutter 공부하'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 출근하기'),
+                    ),
+                    ListTile(
+                      leading: Icon(Icons.arrow_right),
+                      title: Text(' 공부하기'),
+                    ),
+                  ],
+                ),
+              ),
+            )
           ],
         ),
       ),
